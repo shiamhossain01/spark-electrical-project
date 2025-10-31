@@ -89,7 +89,7 @@ nav li a:hover{
 }
 
 .hero-content{
-    max-width: 50%;
+    width: 50%;
 
 }
 
@@ -153,11 +153,12 @@ nav li a:hover{
 }
 
 .hero-image{
-    max-width: 50%;
+    width: 40%;
 
 }
 
 .hero-image img{
+    width: 100%;
     border-radius: 200px 0px 0px 0px;
 
 }
@@ -969,4 +970,111 @@ footer{
 .footer-copyright-right p a:hover{
     color: #eb6029;
 }
+
+
+.hide{
+    display: none;
+}
+
+/* responsive media query */
+
+
+
+@media screen and (max-width: 576px) {
+
+
+    
+nav{
+    flex-direction: column;
+}    
+
+nav ul{
+    flex-direction: column;
+
+}
+
+
+nav li button{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 30px;
+
+}
+
+.hero-container{
+    padding: 0px 15px;
+    margin-top: 30px;
+    flex-direction: column;
+
+}
+
+.hero-content{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.hero-sub-tittle{
+    font-size: 16px;
+
+}
+
+
+.hero-main-tittle{
+    font-size: 24px;
+
+}
+
+.hero-description{
+    margin-bottom: 60px;
+    font-size: 13px;
+
+}
+
+.btn-primary{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: 100%;
+
+}
+
+.btn-secondary{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: 100%;
+
+}
+
+.hero-image{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.hero-image img{
+    border-radius: 100px 0px 0px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
 

@@ -240,7 +240,8 @@ nav li a:hover{
 }
 
 form input[type="text"], form input[type="email"], form input[type="number"], textarea{
-    width: 100%;
+    /* width: 100%; */
+    width: calc(100% - 15px);
     color: #48413b;
     background-color: #FBFBFB;
     border: 1px solid #e9e6e6;
