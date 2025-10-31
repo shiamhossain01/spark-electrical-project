@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fira-sans-primary{
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+
+.primary-width{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+header{
+    background-image:linear-gradient(#161412c7, #161412c7), url(images/careers-images/Careers-Img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    padding: 16px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+
+}
+
+nav li button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+nav li button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    
+}
+
+/* banner section */
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+    
+}
+
+.banner-content{
+    max-width: 710px;
+    text-align: center;
+
+}
+
+.banner-content-sub-tittle{
+    font-size: 22px;
+    font-weight: 600;
+    color: #eb6029;
+    text-transform: uppercase;
+
+}
+
+.banner-content-main-tittle{
+    font-size: 62px;
+    font-weight: 700;
+    color: white;
+    margin: 10px 0px 30px 0px;
+
+}
+
+.banner-content-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+
+}
+
+/* spark section */
+
+.spark{
+    padding: 140px 0px;
+
+}
+
+.spark-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.spark-content-left{
+    width: 50%;
+
+}
+
+.spark-content-left-sub-tittle{
+    font-size: 22px;
+    font-weight: 500;
+    color: #eb6029;
+    text-transform: uppercase;
+
+}
+
+.spark-content-left-main-tittle{
+    font-size: 56px;
+    font-weight: 700;
+    margin: 15px 0px 20px 0px;
+
+}
+
+.spark-content-left-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+    line-height: 30px;
+    max-width: 600px;
+
+}
+
+.spark-content-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 50%;
+    text-align: center;
+
+}
+
+.spark-content-card{
+    background-color: #F6F2EE;
+    padding: 32px 24px;
+
+}
+
+
+.spark-content-card-icon{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #eb6029;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.spark-content-card-icon i{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.spark-content-card-tittle{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0px 15px 0px;
+
+}
+
+.spark-content-card-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+    line-height: 30px;
+
+}
+
+/* teams section */
+
+.teams{
+    background-color: black;
+
+}
+
+.team-content-tittle{
+    padding: 100px 0px;
+    
+}
+
+.team-content-main-tittle{
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.teams-content-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.teams-content-images-left{
+    width: 50%;
+}
+
+.teams-content-images-left img{
+    width: 100%;
+}
+
+.teams-content-images-right{
+    width: 50%;
+}
+
+.teams-content-images-right-img{
+    width: 100%;
+
+}
+
+.teams-content-images-right-top img{
+    width: 100%;
+}
+
+.teams-content-images-right-bottom{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.teams-content-images-right-bottom-left{
+    width: 50%;
+}
+
+.teams-content-images-right-bottom-left img{
+    width: 100%;
+}
+
+.teams-content-images-right-bottom-right{
+    width: 50%;
+}
+
+.teams-content-images-right-bottom-right img{
+    width: 100%;
+}
+
+.teams-button{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 80px 0px;
+}
+
+.teams-btn{
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #eb6029;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    
+}
+
+.teams-btn:hover{
+    background-color: #a63a0f;
+}
+
+
+/* job opening section */
+
+.job-opening{
+    padding: 140px 0px;
+
+}
+
+.job-opening-content{
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.job-opening-content-sub-tittle{
+    font-size: 22px;
+    font-weight: 600;
+    color: #eb6029;
+    text-transform: uppercase;
+
+}
+
+.job-opening-content-main-tittle{
+    font-size: 56px;
+    font-weight: 700;
+    margin: 10px 0px 20px 0px;
+
+}
+
+.job-opening-content-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+}
+
+.job-opening-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.job-opening-single-card{
+    padding: 32px;
+    background-color: #F6F2EE;
+
+}
+
+.job-opening-card-sub-tittle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #eb6029;
+    text-transform: uppercase;
+
+}
+
+.job-opening-card-main-tittle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0px 15px 0px;
+
+}
+
+.job-opening-card-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+
+}
+
+.job-opening-items{
+    margin-top: 20px;
+
+}
+
+.job-opening-single-item{
+    display: flex;
+    margin-bottom: 12px;
+
+}
+
+.job-opening-single-item i{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.job-opening-single-item-sub-tittle{
+    font-size: 18px;
+    color: #48413b;
+
+}
+
+.job-opening-btn{
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: #eb6029;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.job-opening-btn:hover{
+    background-color: #a63a0f;
+}
+
+.job-opening-btn i{
+    color: white;
+}
+
+
+/* free quote section */
+
+.free-quote{
+    padding: 140px 0px;
+    background-color: #F6F2EE;
+
+}
+
+.free-quote-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.free-quote-content{
+    text-align: center;
+    max-width: 680px;
+
+}
+
+.free-quote-sub-tittle{
+    font-size: 22px;
+    font-weight: 500;
+    color: #eb6029;
+    text-transform: uppercase;
+
+}
+
+.free-quote-main-tittle{
+    font-size: 56px;
+    font-weight: 600;
+    color: black;
+    margin: 15px 0px 15px 0px;
+
+
+}
+
+.free-quote-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+    line-height: 32px;
+    margin-bottom: 50px;
+
+}
+
+.emergency-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    background-color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.free-quote-btn i{
+    margin-right: 5px;
+
+}
+
+.emergency-btn:hover{
+    background-color: #eb6029;
+}
+
+/* footer section */
+
+footer{
+    background-color: black;
+    color: white;
+
+}
+
+.footer-main-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+
+}
+
+.footer-item-one-description{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    max-width: 250px;
+    line-height: 30px;
+
+}
+
+.footer-item-one-icon i{
+    font-size: 30px;
+    margin-right: 8px;
+
+}
+
+.footer-item-tittle{
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+
+.footer-item p{
+    margin-bottom: 20px;
+
+}
+
+.footer-item p a{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-item-three p a:hover{
+    color: #eb6029;
+}
+
+.footer-item-four-items{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 10px;
+
+}
+
+.footer-item-four-icon{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #eb6029;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+
+}
+
+.footer-item-four-icon i{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-item-four-content-main-tittle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+
+.footer-item-four-content-description {
+    max-width: 230px;
+}
+
+.footer-item-four-content-description a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+
+}
+
+.footer-line{
+    border-bottom: 1px solid #48413b;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.footer-copyright-right{
+    display: flex;
+    column-gap: 40px;
+}
+
+.footer-copyright-right p a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-copyright-right p a:hover{
+    color: #eb6029;
+}

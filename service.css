@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fira-sans-primary{
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+
+.primary-width{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+header{
+    background-image:linear-gradient(#161412c7, #161412c7), url(images/service-images/Services-Img\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    padding: 16px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+
+}
+
+nav li button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+nav li button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    
+}
+
+/* banner section */
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+    
+
+}
+
+.banner-content{
+    max-width: 850px;
+    text-align: center;
+
+}
+
+.banner-content-sub-tittle{
+    font-size: 22px;
+    font-weight: 600;
+    color: #eb6029;
+    text-transform: uppercase;
+
+}
+
+.banner-content-main-tittle{
+    font-size: 62px;
+    font-weight: 700;
+    color: white;
+    margin: 10px 0px 30px 0px;
+
+}
+
+.banner-content-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    padding: 0px 80px;
+
+}
+
+/* service booking section */
+
+.service-booking{
+    padding: 140px 0px 120px 0px;
+
+}
+
+.service-booking-content{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: #F6F2EE;
+    margin-bottom: 20px;
+
+}
+
+.service-booking-left{
+    width: 50%;
+
+}
+
+.service-booking-left img{
+    width: 100%;
+
+}
+
+
+.service-booking-right{
+    width: 50%;
+
+}
+
+.service-booking-right-tittle{
+    font-size: 32px;
+    font-weight: 700;
+
+
+}
+
+.service-booking-right-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+    max-width: 550px;
+    line-height: 30px;
+    margin: 20px 0px;
+
+}
+
+.service-booking-right-items-card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.service-booking-right-items-left i{
+    font-size: 20px;
+    color: #eb6029;
+    margin-right: 10px;
+
+}
+
+.service-booking-right-items-right p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+
+}
+
+.service-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.service-btn:hover{
+    background-color: #eb6029;
+}
+
+/* free quote section */
+
+.free-quote{
+    padding: 140px 0px;
+    background-color: #F6F2EE;
+
+}
+
+.free-quote-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.free-quote-content{
+    text-align: center;
+    max-width: 620px;
+
+}
+
+.free-quote-sub-tittle{
+    font-size: 22px;
+    font-weight: 500;
+    color: #eb6029;
+    text-transform: uppercase;
+
+}
+
+.free-quote-main-tittle{
+    font-size: 56px;
+    font-weight: 600;
+    color: black;
+    margin: 15px 0px 20px 0px;
+
+
+}
+
+.free-quote-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48413b;
+    line-height: 32px;
+    margin-bottom: 50px;
+
+}
+
+/* .free-quote-btn i{
+    margin-right: 5px;
+
+} */
+
+.emergency-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    background-color: #eb6029;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.free-quote-btn i{
+    margin-right: 5px;
+
+}
+
+.emergency-btn:hover{
+    background-color: #b04e28;
+}
+
+
+
+/* footer section */
+
+footer{
+    background-color: black;
+    color: white;
+
+}
+
+.footer-main-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+
+}
+
+.footer-item-one-description{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    max-width: 250px;
+    line-height: 30px;
+
+}
+
+.footer-item-one-icon i{
+    font-size: 30px;
+    margin-right: 8px;
+
+}
+
+.footer-item-tittle{
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+
+.footer-item p{
+    margin-bottom: 20px;
+
+}
+
+.footer-item p a{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-item-three p a:hover{
+    color: #eb6029;
+}
+
+.footer-item-four-items{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 10px;
+
+}
+
+.footer-item-four-icon{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #eb6029;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+
+}
+
+.footer-item-four-icon i{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-item-four-content-main-tittle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+
+.footer-item-four-content-description {
+    max-width: 230px;
+}
+
+.footer-item-four-content-description a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+
+}
+
+.footer-line{
+    border-bottom: 1px solid #48413b;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.footer-copyright-right{
+    display: flex;
+    column-gap: 40px;
+}
+
+.footer-copyright-right p a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-copyright-right p a:hover{
+    color: #eb6029;
+}
+
