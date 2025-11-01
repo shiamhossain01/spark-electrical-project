@@ -993,6 +993,16 @@ nav ul{
 
 }
 
+nav ul li {
+    padding: 8px 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 
 nav li button{
     font-size: 12px;
@@ -1063,6 +1073,71 @@ nav li button{
 }
 
 /* hero section end */
+
+
+
+
+/* offer section */
+
+.offer-container {
+    padding: 60px 15px;
+}
+
+.offer-sub-tittle {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.offer-main-tittle {
+    font-size: 23px;
+}
+
+.offer-description {
+    font-size: 15.5px;
+    line-height: 24px;
+}
+
+.offer-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px 0px 0px 0px;
+}
+
+.offer-icon {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.offer-card-main-tittle {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.offer-card-description {
+    font-size: 14.5px;
+    line-height: 22px;
+    margin: 8px 0px 0px 0px;
+}
+
+.offer-card-sub-tittle a {
+    font-size: 12.5px;
+    font-weight: 600;
+}
+
+.offer-card {
+    padding: 20px 16px;
+    right: -1px;
+}
+
+.offer-image {
+    height: 428px;
+}
+
+.offer-card {
+    width: 365px;
+}
+
+
 
 
 
