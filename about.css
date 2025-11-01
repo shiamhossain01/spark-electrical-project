@@ -603,13 +603,14 @@ nav li button{
     width: 100%;
 }
 
-.story-container-right {
+.story-container-right{
     width: 100%;
 }
 
-.tory-container-right-description img{
+.story-container-right img{
     width: 100%;
 }
+
 
 .story-container-right-sub-tittle {
     font-size: 13px;
