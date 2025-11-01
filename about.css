@@ -502,6 +502,7 @@ footer{
 
 nav{
     flex-direction: column;
+    padding-top: 30px;
 }    
 
 nav ul{
