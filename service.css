@@ -557,13 +557,13 @@ nav li button{
 .free-quote-main-tittle {
     font-size: 23.7px;
     font-weight: 600;
-    margin: 8px 0px 10px 0px;
+    margin: 8px 0px 8px 0px;
 }
 
 .free-quote-description {
     font-size: 14.5px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .emergency-btn {
