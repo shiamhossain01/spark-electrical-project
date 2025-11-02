@@ -13,6 +13,10 @@
     margin: 0 auto;
 }
 
+.hide{
+    display: none;
+}
+
 header{
     background-image:linear-gradient(#161412c7, #161412c7), url(images/service-images/Services-Img\ \(1\).png);
     background-position: center;
@@ -396,3 +400,268 @@ footer{
     color: #eb6029;
 }
 
+
+
+
+
+@media screen and (max-width: 576px) {
+
+nav{
+    flex-direction: column;
+    padding-top: 30px;
+}    
+
+nav ul{
+    flex-direction: column;
+
+}
+
+nav ul li {
+    padding: 8px 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+nav li button{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 30px;
+
+}
+
+.banner-container{
+    padding: 60px 15px;
+    margin-top: 30px;
+    flex-direction: column;
+
+}
+
+.banner-content{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.banner-content-sub-tittle{
+    font-size: 14px;
+
+}
+
+
+.banner-content-main-tittle{
+    font-size: 24px;
+    margin: 0px;
+    padding: 10px 10px;
+    line-height: 38px;
+
+}
+
+.banner-content-description{
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 0px 27px;
+
+}
+
+.btn-primary{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    width: 100%;
+
+}
+
+.btn-secondary{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 1px solid white;
+    width: 100%;
+
+}
+
+.banner-image{
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.banner-image img{
+    border-radius: 130px 0px 0px 0px;
+
+}
+
+
+
+
+
+.service-booking {
+    padding: 50px 15px 40px 15px;
+}
+
+.service-booking-content {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-booking-left {
+    width: 100%;
+}
+
+.service-booking-right {
+    padding: 20px 20px 20px 20px;
+    width: calc(100% - 40px);
+}
+
+.service-booking-right-tittle {
+    font-size: 18px;
+}
+
+.service-booking-right-description {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 8px 0px 15px 0px;
+}
+
+.service-booking-right-items-right p {
+    font-size: 14px;
+}
+
+.service-booking-right-items-left i {
+    font-size: 16px;
+}
+
+.service-btn {
+    font-size: 13px;
+    padding: 12px 24px;
+    margin-top: 10px;
+}
+
+.free-quote {
+    padding: 60px 15px;
+}
+
+.free-quote-sub-tittle {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.free-quote-main-tittle {
+    font-size: 23.7px;
+    font-weight: 600;
+    margin: 8px 0px 10px 0px;
+}
+
+.free-quote-description {
+    font-size: 14.5px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.emergency-btn {
+    font-size: 14.5px;
+    padding: 12px 24px;
+}
+
+
+.footer-main-items{
+    flex-direction: column;
+    padding: 40px 0px 10px 0px;
+
+}
+
+.footer-item-tittle{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.footer-item p{
+    margin-bottom: 10px;
+
+}
+
+.footer-item p a{
+    font-size: 16px;
+
+}
+
+.footer-item-one-icon i{
+    font-size: 24px;
+
+}
+
+.footer-item-four-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-item-four-content-main-tittle{
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: white;
+
+}
+
+.footer-item-four-content-description {
+    max-width: 310px;
+}
+
+.footer-line{
+    border-bottom: 1px solid #949291;
+}
+
+.footer-copyright{
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.footer-copyright-right{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-copyright-right p{
+    font-size: 15px;
+}
+
+.footer-copyright-right p a{
+    font-size: 15px;
+}
+
+.footer-copyright-left p{
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.footer-item-three{
+    margin-bottom: 15px;
+}
+
+.footer-item-two{
+    margin: 20px 0px;
+}
+
+.footer-item-one-icon{
+    margin-bottom: 20px;
+}
+
+.footer-container{
+    padding: 20px;
+}
+
+
+
+
+
+    
+}
